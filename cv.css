@@ -1,0 +1,41 @@
+img {
+    float: right;
+}
+
+#id_orange {
+    color: orange;
+}
+
+.orange {
+    color: orange;
+}
+
+body {
+    font-family: Georgia, Arial, sans-serif;
+    background-image: linear-gradient(wheat,white);
+    margin: 10%;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: 8px 8px 8px black;
+}
+
+strong {
+    font-size: 0.5em;
+}
+
+html {
+    background-image: url(buddy.jpg);
+}
+
+img {
+    width: 10%;
+    padding: 15px;
+}
+
+@media screen and (max-width: 640px) {
+
+    .affichage_pc {
+        display: none;
+    }
+}
